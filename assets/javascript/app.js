@@ -48,7 +48,7 @@ function displayCartoonInfo(){
             cartoonGif.attr('data-state', 'still');
             // append to the cartoon div
             gifDiv.append(cartoonGif);
-            gifDiv.append(p);
+            gifDiv.prepend(p);
             // append to the main div
             $('#main').append(gifDiv);
 
